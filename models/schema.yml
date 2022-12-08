@@ -1,12 +1,6 @@
 version: 2
 
 models:
-    - name: MaterialTypes
-      description: "Material Types view"
-      columns:
-          - name: MaterialType_MTART
-            description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
+  - name: MaterialTypes
+    description: "Material Types View"
 
